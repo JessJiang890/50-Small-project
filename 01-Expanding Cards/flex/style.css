@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  height: 100vh;
+  background-color: green;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  flex-grow: 0.2;
+  border-radius: 50px;
+  justify-content: center;
+}
